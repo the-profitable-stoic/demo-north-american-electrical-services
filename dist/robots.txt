@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://demo-north-american-electrical-services.dream-surge.com/sitemap-index.xml

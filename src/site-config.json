@@ -1,0 +1,548 @@
+{
+  "business": {
+    "name": "North American Electrical Services",
+    "phone": "+12089940777",
+    "category": "electrician",
+    "city": "Boise",
+    "state": "ID"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-red-charge",
+      "categoryGroup": "roofing",
+      "name": "Red Charge",
+      "recipeFile": "roofing/red-charge.astro",
+      "colors": {
+        "primary": "#1F3A56",
+        "primaryDark": "#152B42",
+        "primaryLight": "#D0DCE8",
+        "secondary": "#2B4C6F",
+        "accent": "#DC143C",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1F3A56",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Powering Boise, Delivering Confidence.",
+      "heroSubline": "Reliable electrical solutions for homes and businesses throughout the Treasure Valley. Get your project done right, on time, and within budget.",
+      "aboutTitle": "Decades of Electrical Expertise in Boise",
+      "aboutText": [
+        "North American Electrical Services started with a simple goal: provide honest, reliable electrical work to our neighbors in Boise. Founded by a master electrician with deep roots in the community, we’ve grown from a small operation to a trusted name in residential and commercial electrical services.",
+        "We believe in clear communication, meticulous workmanship, and exceeding expectations. Whether it's a simple outlet repair or a complex wiring project, we approach every job with the same dedication to quality and safety. We’re not satisfied until you are.",
+        "Boise is our home, and we're committed to giving back. We actively support local charities and organizations, and we strive to be a responsible and sustainable business, minimizing our environmental impact whenever possible."
+      ],
+      "valueProps": [
+        {
+          "title": "Experienced Electricians",
+          "description": "Our team comprises licensed and insured electricians with years of experience in the Boise area, ensuring expertise and peace of mind."
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "We provide clear, detailed estimates before any work begins, so you know exactly what to expect, with no hidden fees."
+        },
+        {
+          "title": "24/7 Emergency Service",
+          "description": "Electrical emergencies don't wait, and neither do we. We're available around the clock to handle urgent issues and restore power quickly."
+        },
+        {
+          "title": "Guaranteed Satisfaction",
+          "description": "We stand behind our work. If you're not completely satisfied, we'll make it right. Your satisfaction is our top priority."
+        }
+      ],
+      "ctaHeadline": "Get Your Free Electrical Estimate Today!",
+      "ctaSubline": "Contact North American Electrical Services for reliable solutions and competitive pricing."
+    },
+    "services": [
+      {
+        "slug": "residential-wiring",
+        "name": "Residential Wiring",
+        "shortDescription": "Safe and reliable wiring solutions for Boise homes of all ages.",
+        "description": "From new construction wiring to updating older homes in the North End, we handle all residential wiring needs. Boise's diverse housing stock requires a nuanced approach. We ensure your home's electrical system meets code and safety standards, whether you're dealing with the unique challenges of wiring in a historic home or setting up a modern smart home system in a new build. Our services include complete home rewiring, outlet and switch installation, lighting upgrades, and electrical panel upgrades. We also specialize in troubleshooting electrical problems and providing efficient repairs to keep your home safe and powered.",
+        "process": [
+          "Step 1: Comprehensive Assessment - We evaluate your existing wiring and electrical needs.",
+          "Step 2: Detailed Proposal - We provide a clear, upfront estimate with no hidden costs.",
+          "Step 3: Expert Installation - Our licensed electricians perform the wiring with precision and care.",
+          "Step 4: Thorough Inspection - We ensure everything meets code and safety standards."
+        ],
+        "benefits": [
+          "Improved safety and reliability",
+          "Increased home value",
+          "Enhanced energy efficiency",
+          "Support for modern appliances and technology"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have my home's wiring inspected?",
+            "answer": "Homes over 25 years old should have their wiring inspected every 3-5 years to ensure safety and identify potential problems before they become major issues."
+          },
+          {
+            "question": "What are the signs that my home needs rewiring?",
+            "answer": "Common signs include flickering lights, frequently tripping breakers, and outlets that feel warm to the touch. If you notice any of these issues, contact us immediately."
+          },
+          {
+            "question": "Will rewiring disrupt my daily life?",
+            "answer": "We strive to minimize disruption during the rewiring process. We'll work with you to schedule the work at a convenient time and take precautions to protect your home."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-electrical-services",
+        "name": "Commercial Electrical Services",
+        "shortDescription": "Powering Boise businesses with expert electrical solutions.",
+        "description": "North American Electrical Services provides comprehensive electrical services for businesses of all sizes in Boise. We understand the unique demands of commercial electrical systems, from retail spaces to office buildings. Our services include new construction wiring, electrical panel upgrades, lighting design and installation, data cabling, and backup generator installation. We also offer routine maintenance and repairs to minimize downtime and ensure the safety and reliability of your electrical system. We stay up-to-date with the latest electrical codes and technologies to provide efficient and cost-effective solutions for your business. We know that businesses on the Bench and downtown have different electrical needs. We'll tailor a plan that works for you.",
+        "process": [
+          "Step 1: Consultation and Planning - We assess your business's electrical needs and develop a customized plan.",
+          "Step 2: Permitting and Approvals - We handle all necessary permits and approvals to ensure compliance.",
+          "Step 3: Professional Installation - Our experienced electricians perform the installation with minimal disruption to your operations.",
+          "Step 4: Ongoing Support - We provide maintenance and repair services to keep your electrical system running smoothly."
+        ],
+        "benefits": [
+          "Reduced energy costs",
+          "Improved safety and compliance",
+          "Increased productivity",
+          "Reliable power for your business operations"
+        ],
+        "faq": [
+          {
+            "question": "How often should I schedule electrical maintenance for my business?",
+            "answer": "We recommend scheduling electrical maintenance at least once a year to identify and address potential problems before they lead to costly repairs or downtime."
+          },
+          {
+            "question": "Can you help with energy-efficient lighting upgrades?",
+            "answer": "Yes, we specialize in LED lighting upgrades that can significantly reduce your energy consumption and lower your utility bills. We can assess your current lighting system and recommend the best energy-efficient options for your business."
+          },
+          {
+            "question": "What types of businesses do you serve?",
+            "answer": "We serve a wide range of businesses in Boise, including retail stores, restaurants, office buildings, warehouses, and industrial facilities."
+          }
+        ]
+      },
+      {
+        "slug": "electrical-panel-upgrades",
+        "name": "Electrical Panel Upgrades",
+        "shortDescription": "Upgrade your electrical panel for safety and increased capacity.",
+        "description": "Is your electrical panel outdated, overloaded, or showing signs of damage? An electrical panel upgrade can improve the safety and reliability of your home's or business's electrical system. We offer complete electrical panel upgrades, replacing old or undersized panels with modern, high-capacity panels. This ensures your electrical system can safely handle the demands of modern appliances and technology. We also address common problems like tripping breakers, flickering lights, and overheating panels. We'll help you select the right panel size and features for your needs and ensure the installation meets all local codes and safety standards. Homes in the East End often need panel upgrades to accommodate modern appliances.",
+        "process": [
+          "Step 1: Panel Assessment - We evaluate your existing electrical panel and determine your upgrade needs.",
+          "Step 2: Panel Selection - We help you choose the right panel size and features for your home or business.",
+          "Step 3: Expert Installation - Our licensed electricians perform the panel upgrade with precision and care.",
+          "Step 4: Safety Inspection - We ensure the new panel meets all safety standards and is properly grounded."
+        ],
+        "benefits": [
+          "Improved safety and reliability",
+          "Increased electrical capacity",
+          "Prevention of electrical hazards",
+          "Support for modern appliances and technology"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if my electrical panel needs to be upgraded?",
+            "answer": "Common signs include frequently tripping breakers, flickering lights, and an outdated panel with limited capacity. If you notice any of these issues, contact us for an inspection."
+          },
+          {
+            "question": "How long does an electrical panel upgrade take?",
+            "answer": "Most electrical panel upgrades can be completed in one day, but the exact timeframe depends on the complexity of the job and any necessary modifications to your wiring."
+          },
+          {
+            "question": "Is it safe to try and upgrade my electrical panel myself?",
+            "answer": "No, electrical panel upgrades are dangerous and should only be performed by licensed electricians. Improper installation can lead to serious injury or fire."
+          }
+        ]
+      },
+      {
+        "slug": "lighting-installation",
+        "name": "Lighting Installation",
+        "shortDescription": "Enhance your home or business with expert lighting solutions.",
+        "description": "From recessed lighting to chandeliers, we handle all types of lighting installations for homes and businesses in Boise. We offer a wide range of lighting options, including energy-efficient LED lighting, smart lighting systems, and landscape lighting. Whether you're looking to create a cozy ambiance in your living room or improve visibility in your commercial space, we have the expertise to design and install the perfect lighting solution for your needs. We also handle lighting repairs, upgrades, and maintenance to keep your lights shining bright. Considering Boise's dark winter evenings, good lighting is a must.",
+        "process": [
+          "Step 1: Lighting Design - We help you choose the right lighting fixtures and placement for your space.",
+          "Step 2: Professional Installation - Our licensed electricians perform the installation with precision and care.",
+          "Step 3: Testing and Adjustment - We ensure all lights are working properly and adjust them to your desired settings.",
+          "Step 4: Cleanup and Disposal - We clean up the work area and dispose of any old fixtures or materials."
+        ],
+        "benefits": [
+          "Improved aesthetics",
+          "Enhanced energy efficiency",
+          "Increased home value",
+          "Improved safety and security"
+        ],
+        "faq": [
+          {
+            "question": "What are the benefits of LED lighting?",
+            "answer": "LED lighting is more energy-efficient, longer-lasting, and produces less heat than traditional lighting options. It can also save you money on your energy bills and reduce your carbon footprint."
+          },
+          {
+            "question": "Can you install smart lighting systems?",
+            "answer": "Yes, we specialize in smart lighting systems that allow you to control your lights remotely, set schedules, and create custom lighting scenes. Smart lighting can also improve your home's security and energy efficiency."
+          },
+          {
+            "question": "Do you offer landscape lighting services?",
+            "answer": "Yes, we offer landscape lighting services to enhance the beauty and security of your outdoor spaces. We can install path lighting, spotlights, and other types of landscape lighting to create a welcoming and inviting atmosphere."
+          }
+        ]
+      },
+      {
+        "slug": "generator-installation",
+        "name": "Generator Installation",
+        "shortDescription": "Protect your home or business from power outages with a backup generator.",
+        "description": "Power outages can be disruptive and costly, especially during Boise's winter storms. We offer generator installation services to ensure your home or business has a reliable backup power source. We'll help you choose the right generator size and type for your needs and install it according to local codes and safety standards. Our services include whole-house generator installation, portable generator hookups, and generator maintenance and repairs. We'll ensure your generator is ready to provide power when you need it most. Given the risk of wildfires and summer power outages, generators are more important than ever.",
+        "process": [
+          "Step 1: Power Needs Assessment - We determine your power requirements during an outage.",
+          "Step 2: Generator Selection - We help you choose the right generator size and type.",
+          "Step 3: Professional Installation - Our licensed electricians perform the installation.",
+          "Step 4: Testing and Training - We test the generator and provide training on its operation."
+        ],
+        "benefits": [
+          "Protection from power outages",
+          "Continuous power for essential appliances",
+          "Increased safety and security",
+          "Peace of mind during emergencies"
+        ],
+        "faq": [
+          {
+            "question": "What size generator do I need?",
+            "answer": "The size of generator you need depends on the number of appliances and devices you want to power during an outage. We can help you calculate your power needs and recommend the appropriate generator size."
+          },
+          {
+            "question": "What type of generator is best for my needs?",
+            "answer": "We offer both portable and whole-house generators. Portable generators are less expensive and can be moved around, while whole-house generators provide automatic backup power and are permanently installed."
+          },
+          {
+            "question": "Do I need a permit to install a generator?",
+            "answer": "Yes, you typically need a permit to install a generator. We can handle all necessary permits and approvals to ensure compliance with local codes."
+          }
+        ]
+      },
+      {
+        "slug": "electrical-repairs",
+        "name": "Electrical Repairs",
+        "shortDescription": "Fast and reliable electrical repairs for your home or business.",
+        "description": "From faulty outlets to tripping breakers, we handle all types of electrical repairs for homes and businesses in Boise. Our experienced electricians can quickly diagnose and repair electrical problems to ensure your safety and convenience. We offer 24/7 emergency repair services for urgent issues that need immediate attention. We use high-quality materials and follow industry best practices to ensure lasting repairs. Living near the Boise River Greenbelt can lead to unique electrical challenges. We're equipped to handle those situations.",
+        "process": [
+          "Step 1: Troubleshooting - We diagnose the electrical problem using advanced tools and techniques.",
+          "Step 2: Repair or Replacement - We repair or replace the faulty components with high-quality materials.",
+          "Step 3: Testing and Verification - We test the repair to ensure it's working properly.",
+          "Step 4: Safety Inspection - We ensure the repair meets all safety standards."
+        ],
+        "benefits": [
+          "Fast and reliable service",
+          "Experienced electricians",
+          "High-quality materials",
+          "24/7 emergency service"
+        ],
+        "faq": [
+          {
+            "question": "How much will the repair cost?",
+            "answer": "The cost of the repair depends on the complexity of the problem and the materials needed. We provide upfront estimates before starting any work so you know exactly what to expect."
+          },
+          {
+            "question": "How quickly can you respond to my repair request?",
+            "answer": "We offer 24/7 emergency repair services and can typically respond to urgent requests within an hour or two. For non-emergency repairs, we can schedule an appointment at your convenience."
+          },
+          {
+            "question": "Are your electricians licensed and insured?",
+            "answer": "Yes, all of our electricians are licensed and insured to protect you and your property."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Boise",
+        "slug": "boise-id",
+        "state": "ID",
+        "content": "North American Electrical Services is proud to provide comprehensive electrical solutions to the residents and businesses of Boise, Idaho. From troubleshooting minor electrical issues to complete home rewiring projects, our experienced and licensed electricians are equipped to handle any job, big or small. We understand the unique needs of Boise homes and businesses and are committed to delivering safe, reliable, and efficient electrical services.\n\nWe're dedicated to providing top-quality workmanship and exceptional customer service. We take pride in our reputation for honesty, integrity, and professionalism. When you choose North American Electrical Services, you can be confident that you're getting the best electrical services Boise has to offer. We are committed to keeping your home or business safe and powered.",
+        "localContext": "Boise, the capital of Idaho, is known for its vibrant downtown, outdoor recreation opportunities, and a growing tech industry, requiring reliable electrical infrastructure.",
+        "nearbyAreas": [
+          "Meridian",
+          "Nampa",
+          "Eagle"
+        ]
+      },
+      {
+        "city": "Meridian",
+        "slug": "meridian-id",
+        "state": "ID",
+        "content": "North American Electrical Services extends its expert electrical services to the thriving community of Meridian, Idaho. As one of the fastest-growing cities in the state, Meridian's residential and commercial sectors rely on dependable electrical systems. We offer a full range of services, including new construction wiring, electrical panel upgrades, lighting installations, and surge protection, ensuring the safety and efficiency of your property.\n\nOur commitment to Meridian is unwavering. We understand the importance of timely and reliable service, and we strive to exceed your expectations with every project. Whether you're building a new home, renovating an existing space, or simply need an electrical repair, North American Electrical Services is your trusted partner in Meridian.",
+        "localContext": "Meridian is a family-friendly city with a strong sense of community, experiencing rapid growth in residential and commercial development.",
+        "nearbyAreas": [
+          "Boise",
+          "Nampa",
+          "Eagle"
+        ]
+      },
+      {
+        "city": "Nampa",
+        "slug": "nampa-id",
+        "state": "ID",
+        "content": "North American Electrical Services is pleased to offer its professional electrical services to the residents and businesses of Nampa, Idaho. As the largest city in Canyon County, Nampa has a diverse range of electrical needs, from agricultural operations to residential homes. We provide comprehensive electrical solutions, including farm and ranch wiring, commercial electrical services, and residential repairs and installations.\n\nWe understand the unique challenges faced by Nampa's residents and businesses. Our team is experienced in working with a variety of electrical systems and is committed to providing safe, reliable, and affordable service. Whether you need a simple outlet repair or a complex electrical installation, North American Electrical Services is here to help.",
+        "localContext": "Nampa is a growing city with a strong agricultural heritage and a diverse economy, requiring a wide range of electrical services.",
+        "nearbyAreas": [
+          "Caldwell",
+          "Meridian",
+          "Boise"
+        ]
+      },
+      {
+        "city": "Caldwell",
+        "slug": "caldwell-id",
+        "state": "ID",
+        "content": "North American Electrical Services proudly serves the Caldwell, Idaho community, providing reliable and efficient electrical services. We understand the needs of Caldwell's residents and businesses and offer a wide range of services, from residential repairs and upgrades to commercial installations and maintenance. Our licensed electricians are dedicated to providing top-quality workmanship and exceptional customer service.\n\nWe're committed to ensuring the safety and reliability of your electrical systems. Whether you need a new electrical panel, a lighting upgrade, or a complete home rewiring, North American Electrical Services is here to help. We pride ourselves on our prompt response times and our commitment to exceeding your expectations.",
+        "localContext": "Caldwell is a city with a rich history and a growing economy, located in the heart of the Treasure Valley's wine country.",
+        "nearbyAreas": [
+          "Nampa",
+          "Middleton",
+          "Parma"
+        ]
+      },
+      {
+        "city": "Eagle",
+        "slug": "eagle-id",
+        "state": "ID",
+        "content": "North American Electrical Services is dedicated to providing top-notch electrical services to the residents and businesses of Eagle, Idaho. Known for its beautiful homes and thriving community, Eagle requires reliable and efficient electrical systems. We offer a comprehensive range of services, including custom home wiring, landscape lighting installations, and electrical safety inspections.\n\nWe understand the importance of quality and reliability when it comes to your electrical needs. Our team of experienced electricians is committed to providing exceptional workmanship and outstanding customer service. Whether you're building a new home, renovating an existing property, or simply need an electrical repair, North American Electrical Services is your trusted partner in Eagle.",
+        "localContext": "Eagle is an affluent community known for its custom homes, equestrian properties, and scenic riverfront areas.",
+        "nearbyAreas": [
+          "Star",
+          "Meridian",
+          "Boise"
+        ]
+      },
+      {
+        "city": "Star",
+        "slug": "star-id",
+        "state": "ID",
+        "content": "North American Electrical Services provides expert electrical services to the growing community of Star, Idaho. As Star continues to develop, the demand for reliable and efficient electrical systems increases. We offer a full range of services, including new construction wiring, electrical panel upgrades, lighting installations, and surge protection.\n\nOur commitment to Star is unwavering. We understand the importance of timely and reliable service, and we strive to exceed your expectations with every project. Whether you're building a new home, renovating an existing space, or simply need an electrical repair, North American Electrical Services is your trusted partner in Star.",
+        "localContext": "Star is a rapidly growing town experiencing significant residential development, creating a need for comprehensive electrical services.",
+        "nearbyAreas": [
+          "Eagle",
+          "Middleton",
+          "Emmett"
+        ]
+      },
+      {
+        "city": "Middleton",
+        "slug": "middleton-id",
+        "state": "ID",
+        "content": "North American Electrical Services is pleased to offer its professional electrical services to the residents and businesses of Middleton, Idaho. Known for its small-town charm and friendly atmosphere, Middleton relies on dependable electrical systems for homes and businesses alike. We provide comprehensive electrical solutions, including residential repairs, commercial installations, and agricultural wiring.\n\nWe understand the unique needs of Middleton's residents and businesses. Our team is experienced in working with a variety of electrical systems and is committed to providing safe, reliable, and affordable service. Whether you need a simple outlet repair or a complex electrical installation, North American Electrical Services is here to help.",
+        "localContext": "Middleton is a close-knit community with a mix of residential, agricultural, and small business needs.",
+        "nearbyAreas": [
+          "Caldwell",
+          "Star",
+          "Emmett"
+        ]
+      },
+      {
+        "city": "Emmett",
+        "slug": "emmett-id",
+        "state": "ID",
+        "content": "North American Electrical Services proudly extends its reliable electrical services to the community of Emmett, Idaho. Nestled in Gem County, Emmett benefits from our wide range of expertise, from residential repairs and upgrades to commercial electrical services and agricultural wiring solutions. Our licensed electricians are dedicated to providing top-quality workmanship and exceptional customer service to ensure your electrical systems are safe and efficient.\n\nWe are committed to the safety and reliability of your electrical systems. Whether you require a new electrical panel, a lighting upgrade, or a complete rewiring of your home, North American Electrical Services is here to assist you. We take pride in our prompt response times and our unwavering commitment to exceeding your expectations in Emmett.",
+        "localContext": "Emmett is a charming town with a strong agricultural presence, known for its cherry festival and scenic surroundings.",
+        "nearbyAreas": [
+          "Middleton",
+          "Star",
+          "Horseshoe Bend"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Alice K.",
+        "rating": 5,
+        "service": "Electrical Panel Upgrade",
+        "text": "North American Electrical Services upgraded our old electrical panel. They were prompt, professional, and explained everything clearly. The new panel is much safer and handles our modern appliances with ease. Highly recommend!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Bob S.",
+        "rating": 4,
+        "service": "Lighting Installation",
+        "text": "The team installed recessed lighting in our kitchen and it looks fantastic. They were efficient and cleaned up after themselves. There was a minor issue with one of the lights, but they came back quickly to fix it. Good service overall!",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Carolyn M.",
+        "rating": 5,
+        "service": "Commercial Electrical Repairs",
+        "text": "We had a major electrical problem at our restaurant downtown, and North American Electrical Services responded quickly and got us back up and running in no time. Their electrician was knowledgeable and professional. We're grateful for their fast and reliable service.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "David L.",
+        "rating": 5,
+        "service": "Generator Installation",
+        "text": "Living in Boise, we've experienced some pretty intense power outages. North American Electrical Services installed a whole-house generator for us, and it's been a lifesaver. The installation was smooth, and they took the time to explain how to operate the generator safely. Great job!",
+        "date": "2024-12-05"
+      },
+      {
+        "name": "Emily R.",
+        "rating": 4,
+        "service": "Residential Wiring",
+        "text": "We had North American Electrical Services rewire our older home in the North End. It was a big job, but they handled it with professionalism and care. The wiring is now up to code, and we feel much safer. Only reason for 4 stars is they were a little late on the first day.",
+        "date": "2024-11-20"
+      },
+      {
+        "name": "Frank P.",
+        "rating": 5,
+        "service": "Electrical Repairs",
+        "text": "I had a short circuit in my kitchen outlet, and North American Electrical Services came out quickly to fix it. The electrician was friendly and knowledgeable, and he explained what caused the problem and how to prevent it in the future. Excellent service!",
+        "date": "2024-10-15"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Boise Electrician | North American Electrical Services",
+        "description": "Trusted electricians in Boise, ID. Residential & commercial services, panel upgrades, lighting, generators. Get a free estimate!"
+      },
+      "about": {
+        "title": "About Us | North American Electrical Services",
+        "description": "Learn about North American Electrical Services, your trusted electrician in Boise, ID. Experienced, reliable, and committed to quality."
+      },
+      "services": {
+        "title": "Electrical Services | Boise, ID | NA Electrical",
+        "description": "Comprehensive electrical services in Boise: wiring, repairs, panel upgrades, lighting, generators. Residential & commercial solutions."
+      },
+      "contact": {
+        "title": "Contact Us | North American Electrical Services",
+        "description": "Contact North American Electrical Services for reliable electrical solutions in Boise, ID. Call us today for a free estimate!"
+      },
+      "reviews": {
+        "title": "Reviews | North American Electrical Services",
+        "description": "Read reviews from satisfied customers of North American Electrical Services in Boise, ID. See why we're the trusted choice."
+      },
+      "service-areas": {
+        "title": "Service Areas | North American Electrical Services",
+        "description": "North American Electrical Services provides electrical services to Boise and surrounding areas. Find out if we serve your neighborhood."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "residential-wiring": "/images/service-residential-wiring.webp",
+      "commercial-electrical-services": "/images/service-commercial-electrical-services.webp",
+      "electrical-panel-upgrades": "/images/service-electrical-panel-upgrades.webp",
+      "lighting-installation": "/images/service-lighting-installation.webp",
+      "generator-installation": "/images/service-generator-installation.webp",
+      "electrical-repairs": "/images/service-electrical-repairs.webp"
+    },
+    "servicesResponsive": {
+      "residential-wiring": {
+        "src": "/images/service-residential-wiring.webp",
+        "srcset": "/images/service-residential-wiring-400w.webp 400w, /images/service-residential-wiring-800w.webp 800w, /images/service-residential-wiring-1200w.webp 1200w, /images/service-residential-wiring.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-electrical-services": {
+        "src": "/images/service-commercial-electrical-services.webp",
+        "srcset": "/images/service-commercial-electrical-services-400w.webp 400w, /images/service-commercial-electrical-services-800w.webp 800w, /images/service-commercial-electrical-services-1200w.webp 1200w, /images/service-commercial-electrical-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "electrical-panel-upgrades": {
+        "src": "/images/service-electrical-panel-upgrades.webp",
+        "srcset": "/images/service-electrical-panel-upgrades-400w.webp 400w, /images/service-electrical-panel-upgrades-800w.webp 800w, /images/service-electrical-panel-upgrades-1200w.webp 1200w, /images/service-electrical-panel-upgrades.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "lighting-installation": {
+        "src": "/images/service-lighting-installation.webp",
+        "srcset": "/images/service-lighting-installation-400w.webp 400w, /images/service-lighting-installation-800w.webp 800w, /images/service-lighting-installation-1200w.webp 1200w, /images/service-lighting-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "generator-installation": {
+        "src": "/images/service-generator-installation.webp",
+        "srcset": "/images/service-generator-installation-400w.webp 400w, /images/service-generator-installation-800w.webp 800w, /images/service-generator-installation-1200w.webp 1200w, /images/service-generator-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "electrical-repairs": {
+        "src": "/images/service-electrical-repairs.webp",
+        "srcset": "/images/service-electrical-repairs-400w.webp 400w, /images/service-electrical-repairs-800w.webp 800w, /images/service-electrical-repairs-1200w.webp 1200w, /images/service-electrical-repairs.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
